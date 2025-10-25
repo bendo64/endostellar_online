@@ -11,11 +11,14 @@ Endostellar Online
 --Game--
 *For Chrome OS:
 	*Activate linux environment in settings
-	*Copy both the .pck and .x86_64 files into any folder in your "Linux files" folder using the files app
-	*Open the linux terminal
-	*Use the command "cd " followed by the name of the folder where you put the files to open the folder
-	*Make the game executable by using "chmod +x Endostellar_O.x86_64"
-	*If the console returns "Permission denied" enter the same command but with "sudo " in front and enter linux password if prompted
+	*Install git by executing "sudo apt-get install git-all" in terminal
+	*Download both linux scripts from github.com/bendo64/endostellar_online/tree/main/Linux scripts and paste them into your Linux folder in file system
+	*Execute the following commands in the terminal:
+		sudo chmod +x setup.sh
+		sudo chmod +x update.sh
+	*Execute "sudo ./setup.sh" to install eso
+	*Execute "sudo ./update.sh" to update eso
+	
 	
 *For Windows:
 	*Copy .exe file
@@ -26,8 +29,6 @@ Endostellar Online
 
 *For Chrome OS:
 	*Open up the terminal
-	*Use "cd " followed by the name of the folder to navigate into the folder where the .pck and .x86_64 files reside
-	*Start the game using "./Endostellar_O.x86_64" while inside the folder
-
+	*Start the game using "./run_eso.sh" 
 *For Windows:
 	*Start .exe file
