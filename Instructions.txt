@@ -14,10 +14,10 @@ Endostellar Online
 	*Install git by executing "sudo apt-get install git-all" in terminal
 	*Download both linux scripts from github.com/bendo64/endostellar_online/tree/main/Linux scripts and paste them into your Linux folder in file system
 	*Execute the following commands in the terminal:
-		sudo chmod +x setup.sh
-		sudo chmod +x update.sh
-	*Execute "sudo ./setup.sh" to install eso
-	*Execute "sudo ./update.sh" to update eso
+		sudo chmod +x eso_setup.sh
+		sudo chmod +x eso_update.sh
+	*Execute "sudo ./eso_setup.sh" to install eso
+	*Execute "sudo ./eso_update.sh" to update eso
 	
 	
 *For Windows:
