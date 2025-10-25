@@ -1,0 +1,33 @@
+Endostellar Online
+
+----SETUP----
+
+--Server--
+*Install Zerotier One
+	*For Chrome OS install via google play store
+*Connect to network ID : 65228d8d6d2afb9d
+*Contact me to be authenticated on the vpn network
+
+--Game--
+*For Chrome OS:
+	*Activate linux environment in settings
+	*Copy both the .pck and .x86_64 files into any folder in your "Linux files" folder using the files app
+	*Open the linux terminal
+	*Use the command "cd " followed by the name of the folder where you put the files to open the folder
+	*Make the game executable by using "chmod +x Endostellar_O.x86_64"
+	*If the console returns "Permission denied" enter the same command but with "sudo " in front and enter linux password if prompted
+	
+*For Windows:
+	*Copy .exe file
+	
+	
+----STARTING GAME----
+*Boot up Zerotier and connect to the endostellar.net vpn
+
+*For Chrome OS:
+	*Open up the terminal
+	*Use "cd " followed by the name of the folder to navigate into the folder where the .pck and .x86_64 files reside
+	*Start the game using "./Endostellar_O.x86_64" while inside the folder
+
+*For Windows:
+	*Start .exe file
