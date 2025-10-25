@@ -20,7 +20,7 @@ else
 fi
 
 # Make the game executable
-chmod +x "$BASE_DIR/repo/Linux releases/Endostellar_O.x86_64"
+chmod +x "$BASE_DIR/endostellar_online/Linux releases/Endostellar_O.x86_64"
 
 # Create the launcher script in the root folder
 cat > "$LAUNCHER_SCRIPT" <<EOL
