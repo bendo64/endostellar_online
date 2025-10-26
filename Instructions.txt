@@ -12,23 +12,24 @@ Endostellar Online
 *For Chrome OS:
 	*Activate linux environment in settings
 	*Install git by executing "sudo apt-get install git-all" in terminal
-	*Download both linux scripts from github.com/bendo64/endostellar_online/tree/main/Linux scripts and paste them into your Linux folder in file system
-	*Execute the following commands in the terminal:
+	*Download "eso_setup.sh" script from "github.com/bendo64/endostellar_online/tree/main/Linux scripts" and paste it into your "Linux files" folder in the files app
+	*Execute the following command in the linux terminal:
 		sudo chmod +x eso_setup.sh
-		sudo chmod +x eso_update.sh
 	*Execute "sudo ./eso_setup.sh" to install eso
-	*Execute "sudo ./eso_update.sh" to update eso
 	
 	
 *For Windows:
-	*Copy .exe file
+	*Grab .exe file from "github.com/bendo64/endostellar_online/tree/main/Windows releases"
 	
 	
 ----STARTING GAME----
+
+--Connect to server--
 *Boot up Zerotier and connect to the endostellar.net vpn
 
+--Start game--
 *For Chrome OS:
 	*Open up the terminal
-	*Start the game using "./run_eso.sh" 
+	*Start the game using "./eso/run.sh" 
 *For Windows:
-	*Start .exe file
+	*Run .exe file
