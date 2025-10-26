@@ -35,10 +35,10 @@ chmod +x "$BASE_DIR/$LAUNCHER_SCRIPT"
 cd ~
 
 #Copy update script into main
-cp "/$BASE_DIR/endostellar_online/Linux scripts/update.sh/" "/$BASE_DIR/"
+cp "$BASE_DIR/endostellar_online/Linux scripts/update.sh/" "$BASE_DIR/"
 
 #Make exc
-chmod +x "/$BASE_DIR/update.sh/"
+chmod +x "$BASE_DIR/update.sh/"
 
 echo "Setup complete! Run the project using: ./eso/run.sh Update using ./eso/update.sh"
 
