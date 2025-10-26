@@ -2,7 +2,7 @@
 
 # Configuration
 REPO_URL="https://github.com/bendo64/endostellar_online.git"
-BASE_DIR="$HOME/eso"   # Base folder
+BASE_DIR="eso"   # Base folder
 LAUNCHER_SCRIPT="run.sh"
 
 # Create base folder
@@ -20,12 +20,12 @@ else
 fi
 
 # Make the game executable
-chmod +x "$BASE_DIR/endostellar_online/Linux releases/Endostellar_O.x86_64"
+chmod +x "$BASE_DIR/endostellar_online/linux_releases/Endostellar_O.x86_64"
 
 # Create the launcher script in the base folder
 cat > "$BASE_DIR/$LAUNCHER_SCRIPT" <<EOL
 #!/bin/bash
-cd "$BASE_DIR/endostellar_online/Linux releases"
+cd "$BASE_DIR/endostellar_online/linux_releases"
 ./Endostellar_O.x86_64
 EOL
 
@@ -35,7 +35,7 @@ chmod +x "$BASE_DIR/$LAUNCHER_SCRIPT"
 cd ~
 
 #Copy update script into main
-cp "$BASE_DIR/endostellar_online/Linux scripts/update.sh/" "$BASE_DIR/"
+cp "$BASE_DIR/endostellar_online/linux_scripts/update.sh/" "$BASE_DIR/"
 
 #Make exc
 chmod +x "$BASE_DIR/update.sh/"
